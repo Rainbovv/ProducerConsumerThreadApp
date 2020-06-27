@@ -50,13 +50,11 @@ class Car{
         this.number = number;
     }
 
-    @Override
     public String toString() {
         if (this.number.equals("")) return "The place is empty!";
-        return "Car[" +
-                "model='" + model + '\'' +
-                ", number='" + number + '\'' +
-                ']';
+        return "Car[model = '" + model + '\'' +
+                    ", number = '" + number + '\'' +
+                    ']';
     }
 }
 
